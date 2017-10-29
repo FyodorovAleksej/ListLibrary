@@ -1,0 +1,645 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Level Up C/C++ 2017: Файл list.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Level Up C/C++ 2017
+   </div>
+   <div id="projectbrief">List library</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',false,false,'search.php','Поиск');
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Структуры данных</a> &#124;
+<a href="#define-members">Макросы</a> &#124;
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл list.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+</div>
+<p><a href="list_8h_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Структуры данных</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structblock.html">block</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Макросы</h2></td></tr>
+<tr class="memitem:aa8cecfc5c5c054d2875c03e77b7be15d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#aa8cecfc5c5c054d2875c03e77b7be15d">TRUE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:aa8cecfc5c5c054d2875c03e77b7be15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa93f0eb578d23995850d61f7d61c55c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:aa93f0eb578d23995850d61f7d61c55c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:a69b74295ef60e3f41c4d1588e1372b60"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structblock.html">block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a69b74295ef60e3f41c4d1588e1372b60">getBlock</a> (struct <a class="el" href="structblock.html">block</a> *start, int position)</td></tr>
+<tr class="memdesc:a69b74295ef60e3f41c4d1588e1372b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">getBlock - Получение блока под выбранным номером  <a href="#a69b74295ef60e3f41c4d1588e1372b60">Подробнее...</a><br /></td></tr>
+<tr class="separator:a69b74295ef60e3f41c4d1588e1372b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c02cb80aa289a6f4e7585e07ae0d45"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#af5c02cb80aa289a6f4e7585e07ae0d45">getLength</a> (struct <a class="el" href="structblock.html">block</a> *start)</td></tr>
+<tr class="memdesc:af5c02cb80aa289a6f4e7585e07ae0d45"><td class="mdescLeft">&#160;</td><td class="mdescRight">getLength - Получение длины списка  <a href="#af5c02cb80aa289a6f4e7585e07ae0d45">Подробнее...</a><br /></td></tr>
+<tr class="separator:af5c02cb80aa289a6f4e7585e07ae0d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c86ffc486ffe6a51fd6747cf0d9554"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a06c86ffc486ffe6a51fd6747cf0d9554">insert</a> (struct <a class="el" href="structblock.html">block</a> *previous, struct <a class="el" href="structblock.html">block</a> *newBlock)</td></tr>
+<tr class="memdesc:a06c86ffc486ffe6a51fd6747cf0d9554"><td class="mdescLeft">&#160;</td><td class="mdescRight">insert - вставка нового блока после выбранного блока  <a href="#a06c86ffc486ffe6a51fd6747cf0d9554">Подробнее...</a><br /></td></tr>
+<tr class="separator:a06c86ffc486ffe6a51fd6747cf0d9554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a844bb2b8c70ac90ba1a8fb9b4cb4cacb"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a844bb2b8c70ac90ba1a8fb9b4cb4cacb">insertAfterPos</a> (struct <a class="el" href="structblock.html">block</a> *start, struct <a class="el" href="structblock.html">block</a> *newBlock, int position)</td></tr>
+<tr class="memdesc:a844bb2b8c70ac90ba1a8fb9b4cb4cacb"><td class="mdescLeft">&#160;</td><td class="mdescRight">insertAfterPos - вставка нового блока после переданной позиции в списке  <a href="#a844bb2b8c70ac90ba1a8fb9b4cb4cacb">Подробнее...</a><br /></td></tr>
+<tr class="separator:a844bb2b8c70ac90ba1a8fb9b4cb4cacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2355bb07fe58f16bf0302c0cdc77580c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a2355bb07fe58f16bf0302c0cdc77580c">delAfter</a> (struct <a class="el" href="structblock.html">block</a> *previous)</td></tr>
+<tr class="memdesc:a2355bb07fe58f16bf0302c0cdc77580c"><td class="mdescLeft">&#160;</td><td class="mdescRight">delAfter - удаление блока из списка после переданного блока  <a href="#a2355bb07fe58f16bf0302c0cdc77580c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2355bb07fe58f16bf0302c0cdc77580c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08d935cff9ae249aa64fac9d0c925cb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a08d935cff9ae249aa64fac9d0c925cb2">deleteAfterPosition</a> (struct <a class="el" href="structblock.html">block</a> *start, int position)</td></tr>
+<tr class="memdesc:a08d935cff9ae249aa64fac9d0c925cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">deleteAfterPosition - удаление блока после переданной позиции в списке  <a href="#a08d935cff9ae249aa64fac9d0c925cb2">Подробнее...</a><br /></td></tr>
+<tr class="separator:a08d935cff9ae249aa64fac9d0c925cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af585a710e345f5c45fcfdedadc7cfe92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#af585a710e345f5c45fcfdedadc7cfe92">edit</a> (struct <a class="el" href="structblock.html">block</a> *previous, struct <a class="el" href="structblock.html">block</a> *newBlock)</td></tr>
+<tr class="memdesc:af585a710e345f5c45fcfdedadc7cfe92"><td class="mdescLeft">&#160;</td><td class="mdescRight">edit - изменение блока, следующего за указанным блоком в списке  <a href="#af585a710e345f5c45fcfdedadc7cfe92">Подробнее...</a><br /></td></tr>
+<tr class="separator:af585a710e345f5c45fcfdedadc7cfe92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb28d47f3cca0a2d8cec9b460a510eca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#aeb28d47f3cca0a2d8cec9b460a510eca">editAfterPosition</a> (struct <a class="el" href="structblock.html">block</a> *start, struct <a class="el" href="structblock.html">block</a> *newBlock, int position)</td></tr>
+<tr class="memdesc:aeb28d47f3cca0a2d8cec9b460a510eca"><td class="mdescLeft">&#160;</td><td class="mdescRight">editAfterPosition - изменение блока, следующего за переданной позицией а списке  <a href="#aeb28d47f3cca0a2d8cec9b460a510eca">Подробнее...</a><br /></td></tr>
+<tr class="separator:aeb28d47f3cca0a2d8cec9b460a510eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee6ecb76b83913d80dd3c464b929474"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a1ee6ecb76b83913d80dd3c464b929474">clear</a> (struct <a class="el" href="structblock.html">block</a> *start)</td></tr>
+<tr class="memdesc:a1ee6ecb76b83913d80dd3c464b929474"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear - очистка всего списка  <a href="#a1ee6ecb76b83913d80dd3c464b929474">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1ee6ecb76b83913d80dd3c464b929474"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b531e5cf4dfc09254230e28b2f35a18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a2b531e5cf4dfc09254230e28b2f35a18">appendToEnd</a> (struct <a class="el" href="structblock.html">block</a> *start, struct <a class="el" href="structblock.html">block</a> *newBlock)</td></tr>
+<tr class="memdesc:a2b531e5cf4dfc09254230e28b2f35a18"><td class="mdescLeft">&#160;</td><td class="mdescRight">appendToEnd - добавление блока в конец списка  <a href="#a2b531e5cf4dfc09254230e28b2f35a18">Подробнее...</a><br /></td></tr>
+<tr class="separator:a2b531e5cf4dfc09254230e28b2f35a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8777e78c4d9ae59c61ce3f77c4e9406a"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="structblock.html">block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a8777e78c4d9ae59c61ce3f77c4e9406a">create</a> (double value)</td></tr>
+<tr class="memdesc:a8777e78c4d9ae59c61ce3f77c4e9406a"><td class="mdescLeft">&#160;</td><td class="mdescRight">create - создание блока (ячейки) с переданным значением  <a href="#a8777e78c4d9ae59c61ce3f77c4e9406a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8777e78c4d9ae59c61ce3f77c4e9406a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac58e8970e7af0e5bb451399bf1357d75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#ac58e8970e7af0e5bb451399bf1357d75">out</a> (struct <a class="el" href="structblock.html">block</a> *start)</td></tr>
+<tr class="memdesc:ac58e8970e7af0e5bb451399bf1357d75"><td class="mdescLeft">&#160;</td><td class="mdescRight">out - вывод списка  <a href="#ac58e8970e7af0e5bb451399bf1357d75">Подробнее...</a><br /></td></tr>
+<tr class="separator:ac58e8970e7af0e5bb451399bf1357d75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5537d8066ee6c6c1f6ac4a7117c8fbd9"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a5537d8066ee6c6c1f6ac4a7117c8fbd9">test</a> (struct <a class="el" href="structblock.html">block</a> *current, double value)</td></tr>
+<tr class="memdesc:a5537d8066ee6c6c1f6ac4a7117c8fbd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">test - проверка совпадения значения блока в списке с переданным значением  <a href="#a5537d8066ee6c6c1f6ac4a7117c8fbd9">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5537d8066ee6c6c1f6ac4a7117c8fbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Макросы</h2>
+<a id="aa93f0eb578d23995850d61f7d61c55c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa93f0eb578d23995850d61f7d61c55c1">&#9670;&nbsp;</a></span>FALSE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FALSE&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8cecfc5c5c054d2875c03e77b7be15d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8cecfc5c5c054d2875c03e77b7be15d">&#9670;&nbsp;</a></span>TRUE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TRUE&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Переопределение слов TRUE и FALSE как 1 и 0 соответсвенно (так как в языке C нету типа bool) </p>
+
+</div>
+</div>
+<h2 class="groupheader">Функции</h2>
+<a id="a2b531e5cf4dfc09254230e28b2f35a18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b531e5cf4dfc09254230e28b2f35a18">&#9670;&nbsp;</a></span>appendToEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void appendToEnd </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>newBlock</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>appendToEnd - добавление блока в конец списка </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+    <tr><td class="paramname">newBlock</td><td>- блок для добавления</td></tr>
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+    <tr><td class="paramname">newBlock</td><td>- блок для добавления </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1ee6ecb76b83913d80dd3c464b929474"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ee6ecb76b83913d80dd3c464b929474">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clear </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>start</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>clear - очистка всего списка </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало списка</td></tr>
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8777e78c4d9ae59c61ce3f77c4e9406a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8777e78c4d9ae59c61ce3f77c4e9406a">&#9670;&nbsp;</a></span>create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structblock.html">block</a>* create </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>create - создание блока (ячейки) с переданным значением </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>- значение новой ячейки </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>- указатель на созданный блок (ячейку)</dd></dl>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>- значение новой ячейки </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>- указатель на созданный блок (ячейку) </dd></dl>
+
+</div>
+</div>
+<a id="a2355bb07fe58f16bf0302c0cdc77580c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2355bb07fe58f16bf0302c0cdc77580c">&#9670;&nbsp;</a></span>delAfter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void delAfter </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>previous</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>delAfter - удаление блока из списка после переданного блока </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">previous</td><td>- блок, после которго нужно удалить</td></tr>
+    <tr><td class="paramname">previous</td><td>- блок, после которго нужно удалить </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a08d935cff9ae249aa64fac9d0c925cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d935cff9ae249aa64fac9d0c925cb2">&#9670;&nbsp;</a></span>deleteAfterPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void deleteAfterPosition </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>deleteAfterPosition - удаление блока после переданной позиции в списке </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+    <tr><td class="paramname">position</td><td>- позиция, после которой нужно удалить блок</td></tr>
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+    <tr><td class="paramname">position</td><td>- позиция, после которой нужно удалить блок </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af585a710e345f5c45fcfdedadc7cfe92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af585a710e345f5c45fcfdedadc7cfe92">&#9670;&nbsp;</a></span>edit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void edit </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>previous</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>newBlock</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>edit - изменение блока, следующего за указанным блоком в списке </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">previous</td><td>- блок, после которого нужно изменить блок </td></tr>
+    <tr><td class="paramname">newBlock</td><td>- блок, на который нужно изменить старый блок</td></tr>
+    <tr><td class="paramname">previous</td><td>- блок, после которого нужно изменить блок </td></tr>
+    <tr><td class="paramname">newBlock</td><td>- блок, на который нужно изменить старый блок </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aeb28d47f3cca0a2d8cec9b460a510eca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb28d47f3cca0a2d8cec9b460a510eca">&#9670;&nbsp;</a></span>editAfterPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void editAfterPosition </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>newBlock</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>editAfterPosition - изменение блока, следующего за переданной позицией а списке </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+    <tr><td class="paramname">newBlock</td><td>- блок, на который нужно заменить старый блок </td></tr>
+    <tr><td class="paramname">position</td><td>- позиция, после которой нужно изменить блок</td></tr>
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+    <tr><td class="paramname">newBlock</td><td>- блок, на который нужно заменить старый блок </td></tr>
+    <tr><td class="paramname">position</td><td>- позиция, после которой нужно изменить блок </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a69b74295ef60e3f41c4d1588e1372b60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b74295ef60e3f41c4d1588e1372b60">&#9670;&nbsp;</a></span>getBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="structblock.html">block</a>* getBlock </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getBlock - Получение блока под выбранным номером </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало очереди (указатель на 1-ый блок) </td></tr>
+    <tr><td class="paramname">position</td><td>- позиция блока для выбора </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>- указатель на блок с выбранным номером</dd></dl>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало очереди (указатель на 1-ый блок) </td></tr>
+    <tr><td class="paramname">position</td><td>- позиция блока для выбора </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>- указатель на блок с выбранным номером </dd></dl>
+
+</div>
+</div>
+<a id="af5c02cb80aa289a6f4e7585e07ae0d45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c02cb80aa289a6f4e7585e07ae0d45">&#9670;&nbsp;</a></span>getLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int getLength </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>start</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getLength - Получение длины списка </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>- длина списка</dd></dl>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>- длина списка </dd></dl>
+
+</div>
+</div>
+<a id="a06c86ffc486ffe6a51fd6747cf0d9554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06c86ffc486ffe6a51fd6747cf0d9554">&#9670;&nbsp;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void insert </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>previous</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>newBlock</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>insert - вставка нового блока после выбранного блока </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">previous</td><td>- указатель на блок перед вставкой </td></tr>
+    <tr><td class="paramname">newBlock</td><td>- указатель на блок для вставки</td></tr>
+    <tr><td class="paramname">previous</td><td>- указатель на блок перед вставкой </td></tr>
+    <tr><td class="paramname">newBlock</td><td>- указатель на блок для вставки </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a844bb2b8c70ac90ba1a8fb9b4cb4cacb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a844bb2b8c70ac90ba1a8fb9b4cb4cacb">&#9670;&nbsp;</a></span>insertAfterPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char insertAfterPos </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>newBlock</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>insertAfterPos - вставка нового блока после переданной позиции в списке </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+    <tr><td class="paramname">newBlock</td><td>- блок для вставки </td></tr>
+    <tr><td class="paramname">position</td><td>- позиция в списке, после которой нужно вставить блок </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>- получилось ли вставить?</dd></dl>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+    <tr><td class="paramname">newBlock</td><td>- блок для вставки </td></tr>
+    <tr><td class="paramname">position</td><td>- позиция в списке, после которой нужно вставить блок </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>- получилось ли вставить? </dd></dl>
+
+</div>
+</div>
+<a id="ac58e8970e7af0e5bb451399bf1357d75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac58e8970e7af0e5bb451399bf1357d75">&#9670;&nbsp;</a></span>out()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void out </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>start</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>out - вывод списка </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>- начало списка</td></tr>
+    <tr><td class="paramname">start</td><td>- начало списка </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5537d8066ee6c6c1f6ac4a7117c8fbd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5537d8066ee6c6c1f6ac4a7117c8fbd9">&#9670;&nbsp;</a></span>test()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char test </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structblock.html">block</a> *&#160;</td>
+          <td class="paramname"><em>current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>test - проверка совпадения значения блока в списке с переданным значением </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>- блок в списке </td></tr>
+    <tr><td class="paramname">value</td><td>- значение, с которым оно сравнивается </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>- совпадает ли значение?</dd></dl>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">current</td><td>- блок в списке </td></tr>
+    <tr><td class="paramname">value</td><td>- значение, с которым оно сравнивается </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>- совпадает ли значение? </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
